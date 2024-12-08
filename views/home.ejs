@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="./home.css">
+</head>
+<body>
+    <div>
+    <form action="/login" method="post">
+        <h1>Register Here</h1>
+        <label for="fName">First Name</label>
+        <input type="text" id="fName" name="firstName" required>
+        <label for="lName">Last Name</label>
+        <input type="text" id="lName" name="lastName" required>
+        <label for="UName">Username</label>
+        <input type="text" id="uName" name="username" required>
+        <label for="email">Email address</label>
+        <input type="text" id="email" name="email" required>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+        <button>Sign Up</button>
+    </form>
+    <p>Already have account? <a href="http://localhost:8080/login">Sign In</a></p>
+</div>
+</body>
+</html>
